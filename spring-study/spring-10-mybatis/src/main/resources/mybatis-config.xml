@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--configuration核心配置文件-->
+<configuration>
+
+    <typeAliases>
+        <package name="com.wl.pojo"/>
+    </typeAliases>
+
+    <!--设置-->
+    <!--<settings>-->
+    <!--    <setting name="" value=""/>-->
+    <!--</settings>-->
+
+    <!--此时它这个放到了spring-dao.xml中-->
+    <!--<mappers>-->
+    <!--    <mapper class="com.wl.mapper.UserMapper"/>-->
+    <!--</mappers>-->
+
+</configuration>
